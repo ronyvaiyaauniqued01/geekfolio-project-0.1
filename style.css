@@ -44,6 +44,9 @@
     /* border: 2px solid red; */
     color: white;
     background-image: url("./images/background.png"), linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
    
 }
 
@@ -51,14 +54,19 @@
     font-size: 55px;
     font-weight: bold;
 }
-
+/* .banner-text{
+    padding-left: 20px; */
+}
 .description{
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 .btn{
     padding: 10px 20px;
-    border: 2px solid red;
+    background-color: red;
+    color: white;
+    border: none;
+    /* btn hover effect and cursor */
 }
